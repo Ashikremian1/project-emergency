@@ -4,28 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Service</title>
+    <link rel="stylesheet" href="style.css" />
+
     <link
-    href="https://cdn.jsdelivr.net/npm/daisyui@5"
-    rel="stylesheet"
-    type="text/css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
+    <!-- navbar-right -->
+    <div class="flex justify-between items-center my-[25px] mx-[60px]">
+      <div class="flex gap-2 items-center">
+        <img class="w-[60px] h-[60px]" src="assets/logo.png" alt="" />
+        <h1 class="inter-font font-black text-[20px] text-[#006747]">
+          Emergency <br />
+          Service
+        </h1>
+      </div>
 
-    <!-- title-section -->
-     <div>
-        
-     </div>
+      <!-- navbar-left -->
+
+      <div class="grid grid-cols-3 gap-[20px]">
+        <div
+          class="flex items-center justify-center gap-[10px] bg-[#41FF6B1A] w-[123px] h-[52px] rounded-3xl font-bold"
+        >
+          <p>0</p>
+          <img class="w-[30px] h-[30px]" src="assets/heart.png" alt="" />
+        </div>
+
+        <div
+          class="flex items-center justify-center gap-[10px] bg-[#41FF6B1A] w-[123px] h-[52px] rounded-3xl font-bold"
+        >
+          <p>100</p>
+          <img class="w-[30px] h-[30px]" src="assets/coin.png" alt="" />
+        </div>
+
+        <div
+          class="flex items-center justify-center gap-[5px] bg-[#00A63E] w-[123px] h-[52px] rounded-3xl text-white font-semibold"
+        >
+          <p>2</p>
+          <p>Copy</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-2 -->
+
+    <div
+      class="flex flex-col justify-center items-center w-[1920px] h-[239px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]"
+    >
+      <img class="w-[92px] h-[92px]" src="assets/logo-dark.png" alt="" />
+      <h1 class="text-[40px] font-bold text-white">
+        Emergency Service Directory
+      </h1>
+      <p class="text-[20px] font-semibold text-white">
+        Government Emergency Services at Your Fingertip – A Project by
+        Government of the People’s Republic of Bangladesh
+      </p>
+    </div>
+
+    <!-- cards -->
+    
+
+    <div class=" my-[48px] mx-[58px] ">
+
+    <div class="flex justify-center w-[436px] h-[360px] p-[32px]  border-2">
+      <div class="flex items-center border-2 p-4 w-[372px] h-[60px] justify-between">
+        <div class="bg-[#FFE3E2] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
+          <img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="" />
+        </div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+
+    </div>
+
+    <div>
+      <h1>National Emergency Number</h1>
+      <p>National Emergency</p>
+      <h1>999</h1>
+      <p>All</p>
+    </div>  
+
+    </div>
 
   </body>
-
 </html>
