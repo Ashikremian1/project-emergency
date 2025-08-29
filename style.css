@@ -5,3 +5,7 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+
+.history-container {
+  overflow-y: auto;
+}
